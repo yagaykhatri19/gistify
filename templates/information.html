@@ -1,0 +1,67 @@
+{% extends 'index.html' %} {% block body %}
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(224, 98, 98, 0.1);
+            font-family: 'Arial', sans-serif;
+        }
+
+        h3, h4 {
+            color: #212529;
+        }
+
+        .container p, .container ul {
+            text-align: justify;
+            color: #495057;
+            line-height: 1.6;
+        }
+
+        .container li {
+            margin-bottom: 5px;
+        }
+
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+
+    <div class="container" style="text-align: center;">
+        <h3>What is Gistify?</h3>
+        <p>
+            Imagine you're holding a book in one hand and a magic wand in the other.
+            With a flick of your wrist, you can transform that book into a concise,
+            crystal-clear summary, capturing all the essential points without losing the
+            essence. Sounds like magic, right? Well, that's exactly what Gistify does -
+            but with text!
+        </p>
+        <h4>Meet Gistify: Your Text-Summarizing Wizard</h4>
+        <p>
+            Gistify is your go-to digital companion for turning lengthy texts into
+            bite-sized, digestible nuggets of information. Whether you're a student
+            drowning in textbooks, a professional swamped with reports, or just someone
+            who loves to stay informed without spending hours reading, Gistify is here
+            to help.
+        </p>
+        <h4>How Does Gistify Work?</h4>
+        <p>At the heart of Gistify are two magical spells:</p>
+        <ul>
+            <li><span class="highlight">Abstractive Summary:</span> This is Gistify's creative side. It reads your text, understands the core ideas,
+                and then writes a brand-new summary in its own words. Think of it as having a conversation with a
+                knowledgeable friend who explains things to you in a clear and engaging way.</li>
+            <li><span class="highlight">Extractive Summary:</span> This is Gistify's analytical side. It meticulously scans your text, identifies
+                the most important sentences, and strings them together to form a concise summary. It's like having a
+                highlighter that picks out only the most crucial points.</li>
+        </ul>
+        <h4>Ready to Get Started?</h4>
+        <p>Unleash the power of Gistify and transform the way you consume information. It's like having a superpower - one
+            that keeps you informed, saves you time, and makes learning fun. So go ahead, give Gistify a try, and see how it
+            can change your world, one summary at a time!
+        </p>
+        <a href="/" class="btn-get-started">Get Started</a>
+    </div>
+{% endblock body %}
