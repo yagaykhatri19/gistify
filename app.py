@@ -1,6 +1,9 @@
 from flask import Flask, render_template, redirect, request
+<<<<<<< HEAD
 from extractive import extractive_summarize_text
 from abstractive import abstractive_summarize_text
+=======
+>>>>>>> origin/main
 
 app = Flask(__name__)
 
@@ -23,12 +26,16 @@ def summary():
     text = request.form['text']
     if (len(text)==0):
         return render_template('dashboard.html', error='Enter text.')
+<<<<<<< HEAD
     # text = text.strip()
     
     summary = extractive_summarize_text(text)
     summary_ = abstractive_summarize_text(text)
 
     return render_template('summarize.html', text=text, summary_=summary_, summary=summary,)
+=======
+    return render_template('summarize.html', text=text)
+>>>>>>> origin/main
 #ENDPOINTS
 
 if (__name__=='__main__'):

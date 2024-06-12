@@ -1,4 +1,52 @@
 {% extends 'index.html' %} {% block body %}
+<<<<<<< HEAD
+=======
+    <style>
+        .scroll-box {
+            width: 100%;
+            max-width: 1800px;
+            height: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow-y: scroll;
+            font-size: 14px;
+            background-color: #fafafa;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin: 0 auto;
+            text-align: justify;
+        }
+        
+        .side-by-side-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1600px;
+            margin: 20px auto;
+        }
+
+        .side-box-container {
+            width: 49%;
+        }
+
+        .side-box {
+            height: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow-y: scroll;
+            font-size: 14px;
+            background-color: #fafafa;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            text-align: justify;
+        }
+        .side-box-container h5 {
+            text-align: center;
+        }
+    </style>
+
+>>>>>>> origin/main
     <div class="container my-4" style="text-align: center;">
         <h4>Your text:</h4>
         <div class="scroll-box">
@@ -10,13 +58,21 @@
         <div class="side-box-container">
             <h5>Abstractive Summary:</h5>
             <div class="side-box">
+<<<<<<< HEAD
                 {{ summary_ }}
+=======
+                {{ text }}
+>>>>>>> origin/main
             </div>
         </div>
         <div class="side-box-container">
             <h5>Extractive Summary:</h5>
             <div class="side-box">
+<<<<<<< HEAD
                 {{ summary }}
+=======
+                {{ text }}
+>>>>>>> origin/main
             </div>
         </div>
     </div>
