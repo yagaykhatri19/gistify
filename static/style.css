@@ -23,10 +23,6 @@
   object-fit: cover;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
 .about {
   width: 1130px;
   max-width: 85%;
@@ -73,10 +69,6 @@ span {
   background: #000;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
 /* DASHBOARD */
 .textbox {
   width: 80%;
@@ -116,11 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-<<<<<<< HEAD
   position: relative;
-=======
-  
->>>>>>> origin/main
 }
 
 footer {
@@ -128,11 +116,8 @@ footer {
   padding: 20px 0;
   text-align: center;
   margin-top: auto;
-<<<<<<< HEAD
   width: 100%;
   bottom: 0;
-=======
->>>>>>> origin/main
 }
 
 .footer-container {
@@ -172,20 +157,13 @@ footer {
   word-wrap: break-word;
   margin: 0 auto;
   text-align: justify;
-<<<<<<< HEAD
   margin-bottom: -10px;
-=======
->>>>>>> origin/main
 }
 
 .side-by-side-container {
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
   max-width: 95%; /* Reduced width to provide margin */
-=======
-  max-width: 1600px;
->>>>>>> origin/main
   margin: 20px auto;
 }
 
@@ -207,10 +185,7 @@ footer {
 }
 .side-box-container h5 {
   text-align: center;
-<<<<<<< HEAD
   margin-bottom: 8px;
-=======
->>>>>>> origin/main
 }
 
 .btn-get-started {
