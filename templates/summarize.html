@@ -1,0 +1,23 @@
+{% extends 'index.html' %} {% block body %}
+    <div class="container my-4" style="text-align: center;">
+        <h4>Your text:</h4>
+        <div class="scroll-box">
+            {{ text }}
+        </div>
+    </div>
+
+    <div class="side-by-side-container">
+        <div class="side-box-container">
+            <h5>Abstractive Summary:</h5>
+            <div class="side-box">
+                {{ summary_ }}
+            </div>
+        </div>
+        <div class="side-box-container">
+            <h5>Extractive Summary:</h5>
+            <div class="side-box">
+                {{ summary }}
+            </div>
+        </div>
+    </div>
+{% endblock body %}
